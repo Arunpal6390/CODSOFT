@@ -3,7 +3,13 @@
 }
 
 body {
-  background-color: rgb(237, 237, 237);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
   text-align: center;
   align-items: center;
 }
@@ -12,7 +18,7 @@ button {
   height: 50px;
   border-radius: 20px;
   border: none;
-  background-color: rgb(59, 168, 26);
+  background-color: #0e2637;
   font-size: 20px;
   font-weight: 600;
 }
@@ -29,10 +35,11 @@ div.container {
   text-align: center;
   display: flex;
   justify-content: center;
-  background-color: rgb(70, 202, 220);
+  margin-top: 10px;
 }
 a {
   text-decoration: none;
+  color: rgb(89, 67, 67);
 }
 a:hover {
   color: black;
@@ -42,7 +49,8 @@ a:active {
 }
 
 h1 {
-  color: rgb(6, 1, 1);
-  font-weight: 900;
-  font-style: ;
+  color: rgb(89, 67, 67);
+  font-weight: 300;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 100px;
 }
